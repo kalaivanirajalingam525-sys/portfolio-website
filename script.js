@@ -17,7 +17,7 @@ document
         this.reset();
     });
 
-    fetch("http://localhost:5000/api/projects")
+    fetch("https://portfolio-website-sfpa.onrender.com/api/projects")
     .then(response => response.json())
     .then(projects => {
         console.log("Projects from backend:", projects);
